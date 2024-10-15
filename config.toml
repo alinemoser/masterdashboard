@@ -1,0 +1,41 @@
+# The config.toml file with the following content is a specific configuration 
+# for VS Code that affects how the Streamlit server behaves while you develop 
+# applications using this library.
+
+[server]
+runOnSave = true
+
+# What it means:
+# - [server]: This is the header of the configuration section that refers 
+#   to the Streamlit server.
+# - runOnSave = true: This setting makes the Streamlit server automatically 
+#   reload whenever you save the file you are working on. This is useful for 
+#   development because it allows you to see the changes you made to the 
+#   application in real-time without needing to manually restart the server.
+
+# What it is used for:
+# - Iterative Development: With runOnSave set to true, every time you make 
+#   a change to the code and save the file, Streamlit will automatically 
+#   reload the application. This facilitates iterative development, allowing 
+#   you to see the results of your changes immediately.
+
+# - Productivity: It eliminates the need to manually restart the Streamlit 
+#   server after every change in the code, which can improve your productivity 
+#   and provide a smoother workflow.
+
+# Where this file is located:
+# - The config.toml can be found or created inside the Streamlit configuration 
+#   folder. In a standard user environment, on Linux or macOS, this file might 
+#   be located at ~/.streamlit/config.toml. On Windows, it would be 
+#   C:\Users\YourUsername\.streamlit\config.toml.
+
+# - If you're configuring this directly in VS Code, it might be that you have 
+#   set it up to use this specific option in your development environment.
+
+# Considerations:
+# - If you're working in a local development environment, this configuration 
+#   is very useful. However, in a production environment, you probably don't 
+#   want the server to reload automatically after each file save.
+
+# In summary, this configuration is a convenience to speed up the development 
+# cycle when working with Streamlit applications in VS Code.
