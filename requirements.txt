@@ -5,3 +5,4 @@ random2
 plotly
 matplotlib
 seaborn
+openpyxl
