@@ -1,2 +1,7 @@
 streamlit
+pandas
+numpy
+random2
 plotly
+matplotlib
+seaborn
