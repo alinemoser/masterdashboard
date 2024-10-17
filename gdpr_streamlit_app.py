@@ -16,7 +16,7 @@ st.set_page_config(page_title="US Health App", page_icon="📊", layout="wide")
 very_top_left, very_top_center, very_top_right = st.columns([1, 1.9, 1], vertical_alignment="bottom")
 
 # Dashboard title and description
-very_top_center.title("Cyber Security Breaches Dashboard 🔐🕵️‍♂️")
+very_top_center.title("Cybersecurity Breaches Dashboard 🔐🕵️‍♂️")
 very_top_center.markdown("_Master's degree in Digital Leadership | Technology - Complementary Assignment | Aline Moser_")
 
 # Sidebar file uploader for CSV file
@@ -399,14 +399,14 @@ filtered_types_exploded_df = apply_filters(df_breach_types_exploded, selected_st
 with bottom_left_column:
     st.header("Affected Individuals per Year", divider=True)
     plot_line_char(filtered_df)
-    st.caption("Optional text")
+    #st.caption("Optional text")
 
 with bottom_middle_column:
     st.header("Affected Individuals per State", divider=True)
     plot_map_chart(filtered_df)
-    st.caption("Optional text")
+    #st.caption("Optional text")
 
 with bottom_right_column:
     st.header("Affected Individuals by Type", divider=True)
     plot_affected_per_type_bar(filtered_types_exploded_df)
-    st.caption("Optional text")
+    q#st.caption("Optional text")
