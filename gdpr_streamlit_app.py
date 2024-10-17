@@ -409,4 +409,4 @@ with bottom_middle_column:
 with bottom_right_column:
     st.header("Affected Individuals by Type", divider=True)
     plot_affected_per_type_bar(filtered_types_exploded_df)
-    q#st.caption("Optional text")
+    #st.caption("Optional text")
